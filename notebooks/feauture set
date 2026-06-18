@@ -1,0 +1,21 @@
+    
+ 1   gender            7043 non-null   str    
+ 2   SeniorCitizen     7043 non-null   int64  
+ 3   Partner           7043 non-null   str    
+ 4   Dependents        7043 non-null   str    
+ 5   tenure            7043 non-null   int64  
+ 6   PhoneService      7043 non-null   str    
+ 7   MultipleLines     7043 non-null   str    
+ 8   InternetService   7043 non-null   str    
+ 9   OnlineSecurity    7043 non-null   str    
+ 10  OnlineBackup      7043 non-null   str    
+ 11  DeviceProtection  7043 non-null   str    
+ 12  TechSupport       7043 non-null   str    
+ 13  StreamingTV       7043 non-null   str    
+ 14  StreamingMovies   7043 non-null   str    
+ 15  Contract          7043 non-null   str    
+ 16  PaperlessBilling  7043 non-null   str    
+ 17  PaymentMethod     7043 non-null   str    
+ 18  MonthlyCharges    7043 non-null   float64
+ 19  TotalCharges      7043 non-null   str    
+ 20  Churn             7043 non-null   str  
