@@ -2,9 +2,15 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load(
-    "../models/logistic_pipeline.pkl"
+from pathlib import Path
+
+MODEL_PATH = (
+    Path(__file__).parent.parent
+    / "models"
+    / "logistic_pipeline.pkl"
 )
+
+model = joblib.load(MODEL_PATH)
 
 st.title(
     "Customer Churn Predictor"
